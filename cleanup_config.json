@@ -1,0 +1,8 @@
+{
+  "stale_user_days": 365,
+  "stale_content_days": 730,
+  "stale_site_days": 365,
+  "extract_check_frequency_days": 7,
+  "log_only": true,
+  "log_path": "../logs/"
+}
