@@ -81,7 +81,7 @@ class Config:
     @property
     def stale_user_days(self) -> int:
         """Days to consider user inactive"""
-        return int(self.get("stale_user_days", 365))
+        return int(self.get("stale_user_days", 730))
     
     @property
     def stale_content_days(self) -> int:
@@ -91,7 +91,7 @@ class Config:
     @property
     def stale_site_days(self) -> int:
         """Days to consider site stale"""
-        return int(self.get("stale_site_days", 365))
+        return int(self.get("stale_site_days", 730))
     
     @property
     def log_only(self) -> bool:
